@@ -239,4 +239,75 @@ tr:hover{
     font-size:3rem;
     color:#60a5fa;
 }
+    /* EFECTOS MODERNOS */
+
+.stat-card{
+    transition:0.3s;
+    cursor:pointer;
+}
+
+.stat-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 25px rgba(37,99,235,.25);
+}
+
+.card{
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+/* CURSOS */
+
+.course-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.course-card{
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.course-card:hover{
+    transform:translateY(-8px);
+}
+
+.course-banner{
+    height:120px;
+    background:linear-gradient(135deg,#2563eb,#60a5fa);
+}
+
+.course-content{
+    padding:20px;
+}
+
+.course-content h3{
+    margin-bottom:10px;
+}
+
+/* CALENDARIO */
+
+.calendar-card{
+    background:white;
+    border-left:5px solid #2563eb;
+    padding:20px;
+    border-radius:12px;
+    margin-bottom:15px;
+}
+
+/* NOTIFICACIONES */
+
+.notification{
+    background:#eff6ff;
+    padding:15px;
+    border-radius:10px;
+    margin-bottom:10px;
+}
 }
