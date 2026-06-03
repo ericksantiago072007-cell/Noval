@@ -1,0 +1,177 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:#f4f7fb;
+    color:#333;
+    min-height:100vh;
+    padding:40px;
+}
+
+/* Contenedor principal */
+.container{
+    max-width:1000px;
+    margin:auto;
+}
+
+/* Títulos */
+h1{
+    color:#1e3a8a;
+    margin-bottom:15px;
+    font-size:2.5rem;
+}
+
+h2{
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+h3{
+    color:#475569;
+    margin-bottom:10px;
+}
+
+p{
+    margin-bottom:15px;
+    line-height:1.6;
+}
+
+/* Tarjetas */
+.card{
+    background:white;
+    border-radius:15px;
+    padding:25px;
+    margin:20px 0;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Botones */
+a,
+button{
+    display:inline-block;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border:none;
+    padding:12px 24px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.3s;
+    font-weight:600;
+}
+
+a:hover,
+button:hover{
+    background:#1d4ed8;
+    transform:translateY(-2px);
+}
+
+/* Formularios */
+input,
+select,
+textarea{
+    width:100%;
+    padding:12px;
+    margin:8px 0 15px;
+    border:1px solid #cbd5e1;
+    border-radius:8px;
+    font-size:15px;
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+    outline:none;
+    border-color:#2563eb;
+}
+
+/* Dashboard */
+.dashboard{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin-top:20px;
+}
+
+.stat-card{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
+
+.stat-card h2{
+    color:#2563eb;
+    font-size:2rem;
+}
+
+/* Tabla */
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    margin-top:20px;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
+
+th{
+    background:#2563eb;
+    color:white;
+    padding:15px;
+}
+
+td{
+    padding:15px;
+    text-align:center;
+    border-bottom:1px solid #e5e7eb;
+}
+
+tr:hover{
+    background:#f8fafc;
+}
+
+/* Barra superior */
+.navbar{
+    background:#1e3a8a;
+    color:white;
+    padding:20px;
+    border-radius:12px;
+    margin-bottom:30px;
+}
+
+.navbar h1{
+    color:white;
+    margin:0;
+}
+
+/* Footer */
+.footer{
+    text-align:center;
+    margin-top:40px;
+    color:#64748b;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+    body{
+        padding:20px;
+    }
+
+    h1{
+        font-size:2rem;
+    }
+
+    .dashboard{
+        grid-template-columns:1fr;
+    }
+
+}
