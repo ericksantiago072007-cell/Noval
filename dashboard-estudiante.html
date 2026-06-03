@@ -6,34 +6,33 @@
 <title>Panel del Estudiante - NOVAL</title>
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<!-- MENU LATERAL -->
+<!-- SIDEBAR -->
 
 <div class="sidebar">
 
     <h2>NOVAL</h2>
 
     <a href="dashboard-estudiante.html">🏠 Inicio</a>
-
     <a href="mis-cursos.html">📚 Mis Cursos</a>
-
     <a href="tareas.html">📝 Tareas</a>
-
     <a href="calificaciones.html">📊 Calificaciones</a>
-
     <a href="index.html">🚪 Cerrar Sesión</a>
 
 </div>
 
-<!-- CONTENIDO PRINCIPAL -->
+<!-- CONTENIDO -->
 
 <div class="main">
 
-    <!-- BARRA SUPERIOR -->
+    <!-- TOPBAR -->
 
     <div class="topbar">
-        <h1>Panel del Estudiante</h1>
+
+        <h1>Bienvenido Estudiante</h1>
+
     </div>
 
     <!-- ESTADISTICAS -->
@@ -57,46 +56,126 @@
 
     </div>
 
+    <!-- NOTIFICACIONES -->
+
+    <div class="card">
+
+        <h2>🔔 Notificaciones</h2>
+
+        <div class="notification">
+            Nueva tarea publicada en Desarrollo Web.
+        </div>
+
+        <div class="notification">
+            Calificación actualizada en Bases de Datos.
+        </div>
+
+        <div class="notification">
+            Nuevo material disponible en Programación.
+        </div>
+
+    </div>
+
+    <!-- CURSOS -->
+
+    <div class="card">
+
+        <h2>📚 Mis Cursos</h2>
+
+        <div class="course-grid">
+
+            <div class="course-card">
+
+                <div class="course-banner"></div>
+
+                <div class="course-content">
+
+                    <h3>Desarrollo Web</h3>
+
+                    <p>HTML, CSS y JavaScript</p>
+
+                </div>
+
+            </div>
+
+            <div class="course-card">
+
+                <div class="course-banner"></div>
+
+                <div class="course-content">
+
+                    <h3>Bases de Datos</h3>
+
+                    <p>PostgreSQL y Prisma ORM</p>
+
+                </div>
+
+            </div>
+
+            <div class="course-card">
+
+                <div class="course-banner"></div>
+
+                <div class="course-content">
+
+                    <h3>Programación Orientada a Objetos</h3>
+
+                    <p>Java y UML</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ENTREGAS -->
+
+    <div class="card">
+
+        <h2>📅 Próximas Entregas</h2>
+
+        <div class="calendar-card">
+            Proyecto NOVAL - 10 Junio
+        </div>
+
+        <div class="calendar-card">
+            Quiz Bases de Datos - 15 Junio
+        </div>
+
+        <div class="calendar-card">
+            Foro Arquitectura de Software - 18 Junio
+        </div>
+
+    </div>
+
     <!-- ACTIVIDADES -->
 
     <div class="card">
 
-        <h2>Últimas Actividades</h2>
-
-        <p>✅ Proyecto NOVAL pendiente de entrega.</p>
-
-        <p>✅ Foro de Arquitectura de Software disponible.</p>
-
-        <p>✅ Quiz de Bases de Datos programado.</p>
-
-    </div>
-
-    <!-- PROXIMAS ENTREGAS -->
-
-    <div class="card">
-
-        <h2>Próximas Entregas</h2>
+        <h2>📈 Actividad Reciente</h2>
 
         <table>
 
             <tr>
                 <th>Actividad</th>
-                <th>Fecha</th>
+                <th>Estado</th>
             </tr>
 
             <tr>
                 <td>Proyecto NOVAL</td>
-                <td>10 Junio</td>
+                <td>En Progreso</td>
             </tr>
 
             <tr>
                 <td>Quiz Bases de Datos</td>
-                <td>15 Junio</td>
+                <td>Pendiente</td>
             </tr>
 
             <tr>
                 <td>Foro Arquitectura</td>
-                <td>18 Junio</td>
+                <td>Completado</td>
             </tr>
 
         </table>
